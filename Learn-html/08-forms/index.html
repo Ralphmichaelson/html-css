@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Forms</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Learning HTML Forms</h1>
+
+        <p>
+            Forms allow users to enter and submit information on a webpage.
+        </p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Contact Form</h2>
+
+            <form>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name">
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+
+                <br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age">
+
+                <br><br>
+
+                <label for="date">Date of Birth:</label>
+                <input type="date" id="date" name="date">
+
+                <br><br>
+
+                <p>Choose your preferred programming language:</p>
+
+                <input type="radio" id="html" name="language" value="HTML">
+                <label for="html">HTML</label>
+
+                <input type="radio" id="css" name="language" value="CSS">
+                <label for="css">CSS</label>
+
+                <input type="radio" id="javascript" name="language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+
+                <br><br>
+
+                <p>Which technologies are you interested in?</p>
+
+                <input type="checkbox" id="frontend" name="interest" value="Frontend">
+                <label for="frontend">Frontend</label>
+
+                <input type="checkbox" id="backend" name="interest" value="Backend">
+                <label for="backend">Backend</label>
+
+                <input type="checkbox" id="database" name="interest" value="Database">
+                <label for="database">Database</label>
+
+                <br><br>
+
+                <label for="country">Country:</label>
+
+                <select id="country" name="country">
+                    <option value="kenya">Kenya</option>
+                    <option value="uganda">Uganda</option>
+                    <option value="tanzania">Tanzania</option>
+                    <option value="rwanda">Rwanda</option>
+                </select>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+
+                <br>
+
+                <textarea id="message" name="message" rows="5" cols="40"></textarea>
+
+                <br><br>
+
+                <button type="submit">Submit Form</button>
+                <button type="reset">Reset Form</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Created as part of my HTML learning journey.
+        </p>
+    </footer>
+
+</body>
+
+</html>

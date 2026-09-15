@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="A practical demonstration of advanced HTML features including media, metadata, accessibility, and best practices."
+    >
+
+    <meta name="author" content="Michael Kanyugo">
+
+    <title>Advanced HTML: Media, Metadata & Best Practices</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Advanced HTML: Media, Metadata & Best Practices</h1>
+
+        <p>
+            This page demonstrates useful HTML features that help create
+            more complete, accessible, and well-structured webpages.
+        </p>
+
+        <nav aria-label="Main navigation">
+
+            <a href="#media">Media</a>
+            <a href="#metadata">Metadata</a>
+            <a href="#accessibility">Accessibility</a>
+            <a href="#best-practices">Best Practices</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="media">
+
+            <h2>HTML Media</h2>
+
+            <article>
+
+                <h3>Audio</h3>
+
+                <p>
+                    The audio element can be used to add sound to a webpage.
+                </p>
+
+                <audio controls>
+                    <source src="sample-audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+            </article>
+
+            <article>
+
+                <h3>Video</h3>
+
+                <p>
+                    The video element allows video content to be displayed
+                    directly on a webpage.
+                </p>
+
+                <video controls width="500">
+                    <source src="sample-video.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+
+            </article>
+
+        </section>
+
+        <section id="metadata">
+
+            <h2>Metadata</h2>
+
+            <p>
+                Metadata provides information about a webpage that is not
+                normally displayed as visible page content.
+            </p>
+
+            <p>
+                This page uses metadata such as character encoding,
+                viewport information, description, and author information.
+            </p>
+
+            <pre>
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;meta name="description" content="..."&gt;
+&lt;meta name="author" content="..."&gt;
+            </pre>
+
+        </section>
+
+        <section id="accessibility">
+
+            <h2>Accessibility</h2>
+
+            <p>
+                HTML should be written so that as many people as possible
+                can use and understand a webpage.
+            </p>
+
+            <h3>Accessible Image</h3>
+
+            <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+                alt="Person using a laptop for web development"
+                width="500"
+            >
+
+            <h3>Accessible Navigation</h3>
+
+            <p>
+                The navigation on this page uses an ARIA label to describe
+                its purpose to assistive technologies.
+            </p>
+
+        </section>
+
+        <section id="best-practices">
+
+            <h2>HTML Best Practices</h2>
+
+            <ul>
+
+                <li>
+                    Use a proper HTML document structure.
+                </li>
+
+                <li>
+                    Use semantic elements whenever appropriate.
+                </li>
+
+                <li>
+                    Use meaningful and descriptive headings.
+                </li>
+
+                <li>
+                    Add useful alternative text to meaningful images.
+                </li>
+
+                <li>
+                    Connect form labels with their inputs.
+                </li>
+
+                <li>
+                    Keep HTML properly nested and indented.
+                </li>
+
+                <li>
+                    Use descriptive link text.
+                </li>
+
+                <li>
+                    Use CSS for presentation instead of outdated HTML
+                    presentation attributes.
+                </li>
+
+                <li>
+                    Validate your HTML and fix errors.
+                </li>
+
+                <li>
+                    Keep your HTML simple, readable, and meaningful.
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h2>Embedding External Content</h2>
+
+            <p>
+                An iframe can be used to embed another webpage or external
+                resource inside a webpage.
+            </p>
+
+            <iframe
+                src="https://www.example.com"
+                title="Example website"
+                width="600"
+                height="300"
+            >
+            </iframe>
+
+        </section>
+
+        <section>
+
+            <h2>HTML Validation</h2>
+
+            <p>
+                Validating HTML helps identify structural and syntax errors
+                in a webpage.
+            </p>
+
+            <p>
+                A useful practice is to check your HTML with an HTML
+                validator after completing a project.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Created as part of my HTML learning journey.
+        </p>
+
+        <p>
+            &copy; 2026 My HTML Learning Repository
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
